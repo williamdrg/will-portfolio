@@ -1,0 +1,196 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  background-color: #1D1C22;
+  width: 100%;
+  max-width: 1280px;
+  height: 80px;
+  padding: 0 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 150px;
+}
+
+.img_logo {
+  width: 80%;
+  margin-left: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+.nav-list {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-list li {
+  cursor: pointer;
+}
+
+.nav-active {
+  color: #cd320f;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.nav-not-active {
+  color: #6c757d;
+  text-decoration: none;
+}
+
+.nav-not-active:hover {
+  color: #cd320f;
+  text-decoration: underline;
+}
+
+.menu_icon {
+  display: none;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 0 10px;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #919295;
+  border-radius: 50%;
+}
+
+.fa-bars-sort {
+  color: #333;
+  font-size: 22px;
+}
+
+/* ------ */
+
+@media (max-width: 768px) {
+  .menu_icon {
+    display: block;
+    border: 2px solid;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 35px;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+
+  .hidden {
+    display: block;
+  }
+
+  .nav-movil {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    width: 100%;
+    height: 100vh;
+    background-color: #33333356;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .nav-movil-open {
+    transform: translateX(0);
+  }
+
+  .nav-movil-close {
+    transform: translateX(100%);
+  }
+
+  .nav-links {
+    background-color: rgb(15, 32, 48);
+    position: absolute;
+    height: 100vh;
+    z-index: 1;
+    top: 0;
+    right: 0;
+  }
+  
+  .nav-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    list-style: none;
+    padding: 20px;
+    width: 220px;
+  }
+  
+  .nav-list a {
+    color: white;
+    font-weight: 600;
+  }
+  
+  .icon-close {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    position: absolute;
+    left: -30px;
+    top: 40px;
+    background-color: rgb(15, 32, 48);
+    transition: transform 0.5s ease, color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .icon-close:hover {
+    transform: rotate(90deg);
+    color: red;
+  }
+  
+  .logo_movil {
+    width: 100%;
+    height: 100px;
+  }
+  
+  .about_movil {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px;
+  }
+  
+  .about_icon {
+    display: flex;
+    gap: 10px;
+    font-size: 40px;
+  }
+  
+  .about_icon .icon_social_networks {
+    background-color: rgb(21, 65, 106);
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .icon_social_networks:hover {
+    color: red;
+  }
+}
