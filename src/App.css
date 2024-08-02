@@ -2,6 +2,9 @@
 
 :root {
   --span: red;
+  --back-container: #1D1C22;
+  --back-icon: #3e3c48;
+  --card-project: #2b2b32;
 }
 
 *,
@@ -14,7 +17,8 @@
 }
 
 body {
- background-image: linear-gradient(rgba(22, 22, 22, 0.1), rgba(22, 22, 22, 0.1)), url('/assets/bg.png');
+ /* background-image: linear-gradient(rgba(22, 22, 22, 0.9), rgba(22, 22, 22, 0.9)), url('/assets/slidesdocs.jpg'); */
+ background-image: url('/assets/bg.png') ;
  background-size: cover;
  color: beige;
 }
@@ -46,6 +50,10 @@ input, button {
   cursor: pointer;
   font-family: inherit;
   text-align: center;
+}
+
+span {
+  color: var(--span);
 }
 
 button {

@@ -27,7 +27,7 @@ const Navbar = () => {
             <ul className="nav-list">
               <li><Link to='/' className='nav-active'>Home</Link></li>
               <li><Link to='/about' className='nav-not-active'>About Us</Link></li>
-              <li><Link to='/porfolio'>Porfolioo</Link></li>
+              <li><Link to='/porfolio'>Porfolio</Link></li>
               <li><Link to='/services'>Service</Link></li>
               <li><Link to='/contact'>Contact</Link></li>
             </ul>

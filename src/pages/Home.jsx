@@ -1,4 +1,4 @@
-import { FaReact } from 'react-icons/fa';
+import { FaCss3Alt, FaHtml5, FaReact } from 'react-icons/fa';
 import './styles/home.css';
 import { TbBrandJavascript } from 'react-icons/tb';
 import { DiNodejs } from 'react-icons/di';
@@ -48,7 +48,9 @@ const Home = () => {
         </div>
 
         <div className='home-img'>
-          <img src="/assets/willimg.png" alt="image the avatar" />
+          <img  className='avatar' src="/assets/willimg.png" alt="image the avatar" />
+          <div className="icon-container css-icon"><FaCss3Alt /></div>
+          <div className="icon-container html-icon"><FaHtml5 /></div>
         </div>
       </div>
     </div>

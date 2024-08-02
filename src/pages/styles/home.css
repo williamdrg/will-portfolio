@@ -28,10 +28,6 @@
   font-size: 38px;
 }
 
-.home-info span {
-  color: var(--span);
-}
-
 .home-info p {
   max-width: 650px;
   color: rgb(225, 220, 220);
@@ -63,6 +59,7 @@
 }
 .home-img {
   max-width: 300px;
+  position: relative;
 }
 
 .cart-img {
@@ -99,6 +96,40 @@
 
 .node-icon {
   color: #339933;
+}
+
+.icon-container {
+  font-size: 50px;
+  transition: transform 0.3s ease, color 0.3s ease;
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  background-color: white;
+  position: absolute;
+  animation: verticalMovement 7s infinite;
+}
+
+.css-icon {
+  color: #2965f1;
+  top: 0;
+  left: 0;
+  animation-direction: alternate;
+}
+
+.html-icon {
+  color: #e34c26;
+  bottom: 100px;
+  right: 0;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes verticalMovement {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(60px);
+  }
 }
 
 /* design movil */

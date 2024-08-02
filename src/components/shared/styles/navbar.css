@@ -9,7 +9,7 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 30px;
-  background-color: #1D1C22;
+  background-color: var(--back-container);
   width: 100%;
   max-width: 1280px;
   height: 80px;
@@ -184,7 +184,7 @@
   }
   
   .about_icon .icon_social_networks {
-    background-color: rgb(21, 65, 106);
+    background-color: var(--back-icon);
     padding: 10px;
     border-radius: 10px;
     cursor: pointer;
