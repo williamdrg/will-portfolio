@@ -30,11 +30,11 @@ const Contact = () => {
     emailjs.sendForm(serviceId, templateId, form.current, userId)
       .then((result) => {
         console.log(result.text);
-        openModal("Email sent successfully!");
+        openModal('¡Correo enviado exitosamente!');
         form.current.reset();
       }, (error) => {
         console.log(error.text);
-        openModal("Failed to send email.");
+        openModal('Error al enviar el correo.');
       });
   };
 

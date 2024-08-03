@@ -133,6 +133,9 @@
   }
 }
 
+.tecnology {
+  font-family: "Poppins", sans-serif;
+}
 /* design movil */
 
 @media (max-width: 768px) {

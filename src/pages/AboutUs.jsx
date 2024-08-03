@@ -2,8 +2,7 @@ import { MdEmail, MdOutlinePhonelinkRing, MdPerson4 } from 'react-icons/md'
 import './styles/aboutUs.css'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { IoLogoWhatsapp } from 'react-icons/io'
-import { SlFire } from 'react-icons/sl'
-import { Link } from 'react-router-dom'
+import { SlFire } from 'react-icons/sl' 
 
 const AboutUs = () => {
   return (
@@ -80,7 +79,7 @@ const AboutUs = () => {
                 <div>
                   <p>2023 - 2024</p>
                   <h3>Consultor técnico Oracle Netsuite</h3>
-                  <p>Sehubs S.A.S</p>
+                  <p className='p_title'>Sehubs S.A.S</p>
                   <p>
                    Experiencia en la configuración y personalización de Oracle NetSuite,
                    implementación y optimización de soluciones ERP, integración de módulos 
@@ -91,7 +90,7 @@ const AboutUs = () => {
                 <div>
                   <p>2016 - 2019</p>
                   <h3>Docente Informática</h3>
-                  <p>Instituto Midia Leonor Castellón de Sánchez</p>
+                  <p className='p_title'>Instituto Midia Leonor Castellón de Sánchez</p>
                   <p>
                     Utilicé herramientas tecnológicas y plataformas digitales para mejorar la 
                     enseñanza y el compromiso de los estudiantes. Fomenté habilidades de resolución 
@@ -113,7 +112,7 @@ const AboutUs = () => {
                 <div>
                   <p>Enero/2023 - Junio/2023</p>
                   <h3>Academlo</h3>
-                  <p>Desarrollador Web Full Stack</p>
+                  <p className='p_title'>Desarrollador Web Full Stack</p>
                   <p>
                     
                   </p>
@@ -121,7 +120,7 @@ const AboutUs = () => {
                 <div>
                   <p>2013 - 2016</p>
                   <h3>Lic. En Informática</h3>
-                  <p>Universidad del Magdalena</p>
+                  <p className='p_title'>Universidad del Magdalena</p>
                   <p>
                     
                   </p>

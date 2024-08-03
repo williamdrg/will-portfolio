@@ -15,8 +15,8 @@ const Home = () => {
             <h2>Desarrollador <span>Web Full Stack</span></h2>
           </div>
             <p>
-            Tengo experiencia en tecnologías web como JavaScript, HTML5, CSS, React, Git, 
-            GitHub, Node.js, Express.js, Sequelize, PostgreSQL, Multer y Swagger. Me apasiona 
+            Tengo experiencia en tecnologías web como JavaScript, <span className='tecnology'> HTML5, CSS, React, Git, 
+            GitHub, Node.js, Express.js, Sequelize, PostgreSQL, Multer y Swagger.</span> Me apasiona 
             desarrollar soluciones de software escalables y de alta calidad que cumplan con las 
             necesidades de los usuarios. Disfruto trabajando en proyectos desafiantes y sigo 
             aprendiendo nuevas tecnologías para mejorar mis habilidades.
