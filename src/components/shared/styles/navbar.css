@@ -111,6 +111,7 @@
     background-color: #33333356;
     transform: translateX(100%);
     transition: transform 0.5s ease-in-out;
+    overflow: hidden;
   }
 
   .nav-movil-open {
@@ -192,5 +193,9 @@
   
   .icon_social_networks:hover {
     color: red;
+  }
+
+  body {
+    overflow-x: hidden;
   }
 }
