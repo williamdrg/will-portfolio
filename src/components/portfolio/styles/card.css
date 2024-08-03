@@ -43,8 +43,10 @@
   transition: transform 0.999s;
 }
 
-.card:hover .card-inner {
-  transform: rotateY(180deg);
+@media (min-width: 480px) {
+  .card:hover .card-inner {
+    transform: rotateY(180deg);
+  }
 }
 
 .card_rotate .card-inner {
