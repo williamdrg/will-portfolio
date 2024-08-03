@@ -111,7 +111,6 @@
     background-color: #33333356;
     transform: translateX(100%);
     transition: transform 0.5s ease-in-out;
-    overflow: hidden;
   }
 
   .nav-movil-open {
@@ -120,6 +119,7 @@
 
   .nav-movil-close {
     transform: translateX(100%);
+    display: none;
   }
 
   .nav-links {
@@ -195,8 +195,4 @@
     color: red;
   }
 
-}
-
-body.menu-open {
-  overflow-x: hidden;
 }
