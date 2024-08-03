@@ -43,11 +43,6 @@
   transition: transform 0.999s;
 }
 
-@media (min-width: 480px) {
-  .card:hover .card-inner {
-    transform: rotateY(180deg);
-  }
-}
 
 .card_rotate .card-inner {
   transform: rotateY(180deg);
@@ -106,8 +101,14 @@
   animation: moveDot 6s linear infinite;
 }
 
-.card:hover .dot {
-  animation: moveDotReverse 6s linear infinite;
+@media (min-width: 480px) {
+  .card:hover .card-inner {
+    transform: rotateY(180deg);
+  }
+
+  .card:hover .dot {
+    animation: moveDotReverse 6s linear infinite;
+  }
 }
 
 .card_rotate .dot {
