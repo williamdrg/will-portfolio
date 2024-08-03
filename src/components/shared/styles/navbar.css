@@ -102,7 +102,7 @@
   }
 
   .nav-movil {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     z-index: 3;
@@ -119,7 +119,6 @@
 
   .nav-movil-close {
     transform: translateX(100%);
-    display: none;
   }
 
   .nav-links {

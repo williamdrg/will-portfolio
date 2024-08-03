@@ -3,7 +3,6 @@ import './styles/home.css';
 import { TbBrandJavascript } from 'react-icons/tb';
 import { DiNodejs } from 'react-icons/di';
 import { Link } from 'react-router-dom';
-import 'animate.css'
 
 const Home = () => {
   return (
