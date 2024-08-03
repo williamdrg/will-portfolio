@@ -195,7 +195,8 @@
     color: red;
   }
 
-  body {
-    overflow-x: hidden;
-  }
+}
+
+body.menu-open {
+  overflow-x: hidden;
 }
