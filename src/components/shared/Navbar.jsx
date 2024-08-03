@@ -44,9 +44,15 @@ const Navbar = () => {
             <div className='hidden about_movil'>
               <h2>Sobre Mi:</h2>
               <div className='about_icon'>
+              <a href='https://www.linkedin.com/in/william-rodr%C3%ADguez-garc%C3%ADa-20b971115/' target="_blank" rel="noopener noreferrer">
                 <FaLinkedin className='icon_social_networks' />
+              </a>
+              <a href='https://api.whatsapp.com/send?phone=573023559563' target="_blank" rel="noopener noreferrer">
                 <IoLogoWhatsapp className='icon_social_networks' />
+              </a>
+              <a href='https://github.com/williamdrg' target="_blank" rel="noopener noreferrer">
                 <FaGithub className='icon_social_networks' />
+              </a>
               </div>
             </div>
           </div>

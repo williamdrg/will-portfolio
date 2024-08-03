@@ -268,5 +268,9 @@
   .about_info h1 {
     font-size: 35px;
   }
+
+  .iso-pro span {
+    display: none;
+  }  
   
 }
