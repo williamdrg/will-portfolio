@@ -1,0 +1,188 @@
+.contact {
+  display: flex;
+  justify-content: center;
+  /* border: 2px solid; */
+}
+
+.contact_container {
+  /* border: 2px solid; */
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1280px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.contact_title {
+  border: 1px solid white;
+  border-radius: 50px;
+  text-align: center;
+  max-width: 150px;
+  padding: 5px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.contact_container h1 {
+  max-width: 700px;
+  font-size: 40px;
+}
+
+.contact_container p {
+  max-width: 700px;
+  font-size: 14px;
+}
+
+.form-container {
+  max-width: 700px;
+  margin: 30px;
+  /* background-color: var(--card-project); */
+  padding: 30px;
+  border-left: 5px solid #cd2b2e;
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 2px;
+}
+
+.form-container h3 {
+  margin-bottom: 20px;
+}
+
+.form-container .form .input {
+  color: #ff7a01;
+  width: 100%;
+  background-color: #013747;
+  border: none;
+  outline: none;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+  border-left: 1px solid transparent;
+  border: 2px solid #ff4500;
+}
+
+.form-container .form .input:focus {
+  border-left: 5px solid #cd2b2e;
+  box-shadow: 0 0 10px #cd2b2e;
+}
+
+.form-container .form .textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: #013747;
+  color: #ff7a01;
+  font-weight: bold;
+  resize: none;
+  max-height: 150px;
+  margin-bottom: 20px;
+  border-left: 1px solid transparent;
+  transition: all 0.2s ease-in-out;
+
+  border: 2px solid #ff4500;
+}
+
+.form-container .form .textarea:focus {
+  border-left: 5px solid #cd2b2e;
+  box-shadow: 0 0 10px #cd2b2e;
+}
+
+.form-container .form .button-container {
+  display: flex;
+  gap: 10px;
+}
+
+.form-container .form .button-container .send-button {
+  flex-basis: 70%;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+}
+
+
+.form-container .form .button-container .reset-button-container {
+  filter: drop-shadow(1px 1px 0px #ff7a01);
+  flex-basis: 30%;
+}
+
+.form-container .form .button-container .reset-button-container .reset-button {
+  position: relative;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%);
+  transition: all 0.2s ease-in-out;
+  width: 180px;
+}
+
+
+/* Estilo para el contenido del modal */
+.ReactModal__Content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  color: #000;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.ReactModal__Content button {
+  max-width: 120px;
+}
+
+/* Estilo para el fondo del modal */
+.ReactModal__Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .contact_container h1 {
+    max-width: 700px;
+    font-size: 40px;
+    padding: 10px;
+  }
+  
+  .ReactModal__Content h2 {
+    font-size: 20px;
+  }
+
+  .contact_container h1 {
+    font-size: 35px;
+  }
+  
+}

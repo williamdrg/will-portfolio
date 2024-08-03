@@ -55,7 +55,7 @@
 
 .nav-not-active:hover {
   color: #cd320f;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .menu_icon {

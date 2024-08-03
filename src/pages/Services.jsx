@@ -9,10 +9,10 @@ const Services = () => {
         <div className='service_title'><MdOutlineDesignServices /> Services</div>
         <h1>Never Compromise For Our Portfolio to <span>Quality!</span></h1>
         <p>
-          The imperative for integrated, expansive, and seamless digital experiences 
-          is fueling software product design and development across organizations at 
-          an unprecedented scale. These demands require capabilities to imagine, 
-          build, and run digital products and services for new and existing.
+          En el mundo digital actual, contar con un sitio web eficiente y bien diseñado es fundamental para 
+          el éxito de cualquier negocio. Ofrecemos una gama completa de servicios de desarrollo web para 
+          asegurar que tu presencia en línea sea destacada y efectiva. Desde el diseño y desarrollo hasta 
+          la optimización y mantenimiento, estamos aquí para ayudarte a alcanzar tus objetivos digitales.
         </p>
         <div className="service_cart_container">
           <CardServices/>

@@ -1,11 +1,25 @@
 .card_services_container {
-  padding: 35px;
+  padding: 25px;
   width: 390px;
-  height: 300px;
+  height: 350px;
   background-color: var(--card-project);
   border-radius: 15px;
 }
 
 .card_services_container p {
   font-size: 13px;
+}
+
+.card_services_container h2 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.card_services_container img {
+  width: 80px;
+}
+
+.card_services_container .icon_service {
+  width: 80px;
+  height: 80px;
+  color: rgb(188, 6, 6);
 }

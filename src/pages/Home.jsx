@@ -2,6 +2,7 @@ import { FaCss3Alt, FaHtml5, FaReact } from 'react-icons/fa';
 import './styles/home.css';
 import { TbBrandJavascript } from 'react-icons/tb';
 import { DiNodejs } from 'react-icons/di';
+import { Link } from 'react-router-dom';
 
 
 const Home = () => {
@@ -21,11 +22,11 @@ const Home = () => {
             aprendiendo nuevas tecnologías para mejorar mis habilidades.
             </p>
           <div>
-            <button>Hire me Now!</button>
+            <Link to='/contact'><button>¡Contactame ahora!</button></Link>
           </div>
           <div className='home-cart'>
             <div className='cart-cild'>
-              <p>Services</p>
+              <p>Servicios</p>
               <div  className='cart-img cart-icon'>
                 <FaReact className='icon-tecn react-icon' />
                 <TbBrandJavascript className='icon-tecn js-icon' />
@@ -33,13 +34,13 @@ const Home = () => {
               </div>
             </div>
             <div className='cart-cild'>
-              <p>Projects</p>
+              <p>Proyectos</p>
               <div  className='cart-img'>
                 <img src="/assets/project-img.png" alt="" />
               </div>
             </div>
             <div className='cart-cild'>
-              <p>About Us</p>
+              <p>Sobre mí</p>
               <div  className='cart-img'>
                 <img src="/assets/logo2.png" alt="" />
               </div>

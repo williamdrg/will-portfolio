@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import './styles/navbar.css';
 import { CgMenuMotion } from 'react-icons/cg';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
@@ -8,7 +8,6 @@ import { useState } from 'react';
 
 const Navbar = () => {
   const [ menuOpen, setMenuOpen ] = useState(false);
-
   const toggleMenu = () => setMenuOpen(!menuOpen);
 
   return (
@@ -25,11 +24,21 @@ const Navbar = () => {
             </div>
             <hr className='hidden'/>
             <ul className="nav-list">
-              <li><Link to='/' className='nav-active'>Home</Link></li>
-              <li><Link to='/about' className='nav-not-active'>About Us</Link></li>
-              <li><Link to='/porfolio'>Porfolio</Link></li>
-              <li><Link to='/services'>Service</Link></li>
-              <li><Link to='/contact'>Contact</Link></li>
+              <li>
+                <NavLink exact to='/' className={({ isActive }) => isActive ? 'nav-active' : 'nav-not-active'}>Inicio</NavLink>
+              </li>
+              <li>
+                <NavLink to='/about' className={({ isActive }) => isActive ? 'nav-active' : 'nav-not-active'}>Sobre mí</NavLink>
+              </li>
+              <li>
+                <NavLink to='/portfolio' className={({ isActive }) => isActive ? 'nav-active' : 'nav-not-active'}>Proyectos</NavLink>
+              </li>
+              <li>
+                <NavLink to='/services' className={({ isActive }) => isActive ? 'nav-active' : 'nav-not-active'}>Servicios</NavLink>
+              </li>
+              <li>
+                <NavLink to='/contact' className={({ isActive }) => isActive ? 'nav-active' : 'nav-not-active'}>Contacto</NavLink>
+              </li>
             </ul>
             <hr className='hidden'/>
             <div className='hidden about_movil'>

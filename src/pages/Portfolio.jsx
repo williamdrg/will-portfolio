@@ -1,6 +1,6 @@
 import { GrProjects } from "react-icons/gr"
-import './styles/porfolio.css'
-import Card from "../components/porfolio/Card"
+import './styles/portfolio.css'
+import Card from "../components/portfolio/Card"
 
 const projects = [
   {
@@ -54,19 +54,19 @@ const projects = [
   }
 ];
 
-const Porfolio = () => {
+const Portfolio = () => {
   return (
-    <div className="porfolio">
-      <div className="porfolio_container">
-        <div className='porfolio_title'><GrProjects /> Porfolio</div>
-        <h1>Never Compromise For Our Portfolio to <span>Quality!</span></h1>
+    <div className="portfolio">
+      <div className="portfolio_container">
+        <div className='portfolio_title'><GrProjects /> Proyectos</div>
+        <h1>Explora Mis Proyectos <span>Destacados</span></h1>
         <p>
-          The imperative for integrated, expansive, and seamless digital experiences 
-          is fueling software product design and development across organizations at 
-          an unprecedented scale. These demands require capabilities to imagine, 
-          build, and run digital products and services for new and existing.
+          Bienvenido a mi portafolio de proyectos. Aquí encontrarás una selección de mis trabajos más destacados, 
+          cada uno diseñado y desarrollado con un enfoque en la calidad y la innovación. Estos proyectos son 
+          testimonio de mis habilidades y dedicación en el campo del desarrollo web, desde la concepción hasta la 
+          implementación final.
         </p>
-        <div className="porfolio_cart_container">
+        <div className="portfolio_cart_container">
           {
            projects.map(project => (
              <Card key={project.id} project={project}/>
@@ -78,4 +78,4 @@ const Porfolio = () => {
   )
 }
 
-export default Porfolio
+export default Portfolio

@@ -20,7 +20,7 @@ const Card = ({ project }) => {
       </div>
         
       </div>
-      <h3>Minto - Ai Resume Builder Case Study- UI/UX Design</h3>
+      <h3>{project.title}</h3>
       <div className='card_btn'>
       <a href={project.demo} target="_blank" rel="noopener noreferrer">
         <button>Demo</button>

@@ -1,40 +1,50 @@
-import { GrBlog } from 'react-icons/gr'
+import { GrDocumentPerformance } from 'react-icons/gr'
 import './styles/cardServices.css'
+import { SiAffinitydesigner } from 'react-icons/si'
+import { MdOutlineWebStories } from 'react-icons/md'
 
 const CardServices = () => {
   return (
     <>
       <div className="card_services_container">
-        <div><GrBlog /></div>
-        <h2>Diseño Web</h2>
+        <div><SiAffinitydesigner className='icon_service' /></div>
+        <h2>Desarrollo y Diseño Web</h2>
         <p>
-          Puedo llevar tu presencia en línea al siguiente nivel. 
-          Convierto tus ideas en sitios web personalizados que no 
-          solo se ven impresionantes, sino que también brindan una 
-          experiencia excepcional a tus usuarios. Trabajemos juntos 
-          para crear un sitio web que sea fiel a tu visión y que 
-          haga que tu marca destaque en el vasto mundo digital.
+          Eleva tu presencia en línea con un diseño web personalizado que no solo impresione, 
+          sino que también ofrezca una experiencia excepcional a tus usuarios. Juntos, 
+          crearemos un sitio web que refleje fielmente tu visión y haga destacar tu marca 
+          en el vasto mundo digital.
         </p>
       </div>
       <div className="card_services_container">
-        <div><GrBlog /></div>
-        <h2>Optimización Ninja</h2>
+        <div><GrDocumentPerformance className='icon_service' /></div>
+        <h2>Optimización de Rendimiento Web</h2>
         <p>
-          Puedo acelerar tu sitio web y dejar a tu competencia mordiendo 
-          el polvo. Utilizando técnicas avanzadas de optimización y mejorando 
-          el rendimiento del código, haré que tu sitio web vuele como un cohete. 
-          Permíteme ahorrarle tiempo de carga a tus visitantes y ofrecer una 
-          experiencia tan fluida que no podrán resistirse a quedarse.
+          Acelera tu sitio web y deja atrás a la competencia. Con técnicas avanzadas de 
+          optimización y mejoras en el rendimiento del código, haré que tu sitio web cargue 
+          rápidamente y ofrezca una experiencia fluida, reteniendo a tus visitantes y 
+          mejorando su satisfacción.
         </p>
       </div>
       <div className="card_services_container">
-        <div><GrBlog /></div>
-        <h2>Desarrollo Personalizado</h2>
+        <div><MdOutlineWebStories className='icon_service' /></div>
+        <h2>Desarrollo Web Personalizado</h2>
         <p>
-         Desde la interfaz de usuario cautivadora hasta la implementación inteligente
-         de funciones complejas, trabajaré incansablemente para brindarte una 
-         solución que haga brillar tu negocio. Permíteme transformar tus sueños 
-         en código y sorprender al mundo con una experiencia en línea excepcional.
+          Desde una interfaz de usuario cautivadora hasta la implementación de funciones 
+          complejas, trabajaré incansablemente para ofrecerte una solución que realce tu 
+          negocio. Transforma tus ideas en realidad con un desarrollo personalizado que 
+          sorprenderá a tus usuarios.
+        </p>
+      </div>
+      <div className="card_services_container">
+        <div><img src="/assets/netsuite.png" alt="image netsuite" /></div>
+        <h2>Consultoría Técnica en Oracle NetSuite</h2>
+        <p>
+          Especialista en configuración y personalización de Oracle NetSuite, 
+          implementando y optimizando soluciones ERP para mejorar la eficiencia 
+          y productividad de tu empresa. Hábil en la integración de módulos y desarrollo 
+          de scripts personalizados, proporcionando soporte continuo y capacitación 
+          a los usuarios finales.
         </p>
       </div>
     </>
