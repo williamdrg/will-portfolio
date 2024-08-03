@@ -42,15 +42,15 @@ const Contact = () => {
   return (
     <div className='contact'>
       <div className='contact_container'>
-      <div className='contact_title'><MdOutlineEmail /> Contacto</div>
-      <h1>Hablemos sobre tu próximo <span>proyecto</span></h1>
-      <p>
+      <div className='contact_title animate_slideUp'><MdOutlineEmail /> Contacto</div>
+      <h1 className='animate_slideUp'>Hablemos sobre tu próximo <span>proyecto</span></h1>
+      <p className='animate_slideUp'>
         ¿Tienes una idea que quieres llevar a cabo? Estoy aquí para ayudarte a 
         transformar tus ideas en realidad. Ponte en contacto conmigo para discutir 
         cómo podemos colaborar y hacer que tu proyecto sea un éxito.
       </p>
 
-      <form className='form-container' ref={form} onSubmit={sendEmail}>
+      <form className='form-container animate_slideUp' ref={form} onSubmit={sendEmail}>
         <h3>¡Trabajemos juntos!</h3>
         <div className='form'>
           <input type='text'  placeholder='Nombre' name='user_name' className='input' required/>

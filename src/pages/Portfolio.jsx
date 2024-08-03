@@ -58,15 +58,15 @@ const Portfolio = () => {
   return (
     <div className="portfolio">
       <div className="portfolio_container">
-        <div className='portfolio_title'><GrProjects /> Proyectos</div>
-        <h1>Explora Mis Proyectos <span>Destacados</span></h1>
-        <p>
+        <div className='portfolio_title animate_slideUp'><GrProjects /> Proyectos</div>
+        <h1 className="animate_slideUp">Explora Mis Proyectos <span>Destacados</span></h1>
+        <p className="animate_slideUp">
           Bienvenido a mi portafolio de proyectos. Aquí encontrarás una selección de mis trabajos más destacados, 
           cada uno diseñado y desarrollado con un enfoque en la calidad y la innovación. Estos proyectos son 
           testimonio de mis habilidades y dedicación en el campo del desarrollo web, desde la concepción hasta la 
           implementación final.
         </p>
-        <div className="portfolio_cart_container">
+        <div className="portfolio_cart_container animate_slideUp">
           {
            projects.map(project => (
              <Card key={project.id} project={project}/>

@@ -9,8 +9,8 @@ const AboutUs = () => {
     <div className='about_us'>
       <div className='about_container'>
         <div className='about_card'>
-          <div className='about_title'><MdPerson4/> Sobre mí</div>
-          <div className='about_data'>
+          <div className='about_title animate_slideUp'><MdPerson4/> Sobre mí</div>
+          <div className='about_data animate_slideUp'>
             <h2>William <span>Rodríguez</span></h2>
             <p>Desarrollador Web</p>
             <div className='about_container_img'>
@@ -59,8 +59,8 @@ const AboutUs = () => {
         </div>
 
         <div className='about_info'>
-        <h1>Conoce a tu desarrollador <span>Web</span></h1>
-          <p>
+        <h1 className='animate_slideUp'>Conoce a tu desarrollador <span>Web</span></h1>
+          <p className='animate_slideUp'>
             ¡Hola! Soy un Desarrollador Web Full Stack apasionado y autodidacta 
             con una sólida formación en informática adquirida en la Universidad 
             de Magdalena y refinada durante mis años como docente. Esta experiencia 
@@ -68,7 +68,7 @@ const AboutUs = () => {
             efectivas y la capacidad para descomponer y explicar conceptos complejos 
             de manera sencilla, habilidades que resultan esenciales en programación.
           </p>
-          <div>
+          <div className='animate_slideUp'>
             <h3>Experiencia <span>laboral</span></h3>
             <div className='personal_data'>
               <div className='line_icon_container'>
@@ -101,7 +101,7 @@ const AboutUs = () => {
             </div>
           </div>
 
-          <div>
+          <div className='animate_slideUp'>
             <h3>Formación <span>académica</span></h3>
             <div className='personal_data'>
               <div className='line_icon_container'>
@@ -129,7 +129,7 @@ const AboutUs = () => {
             </div>
           </div>
 
-          <div>
+          <div className='animate_slideUp'>
             <h3>Mis <span>habilidades</span></h3>
             <div className='personal_data'>
               <div className='line_icon_container'>
