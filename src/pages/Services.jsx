@@ -6,8 +6,8 @@ const Services = () => {
   return (
     <div className="service">
       <div className="service_container">
-        <div className='service_title animate_slideUp'><MdOutlineDesignServices /> Services</div>
-        <h1 className='animate_slideUp'>Never Compromise For Our Portfolio to <span>Quality!</span></h1>
+        <div className='service_title animate_slideUp'><MdOutlineDesignServices /> Servicios</div>
+        <h1 className='animate_slideUp'>Impulsa tu Presencia en <span>Línea</span></h1>
         <p className='animate_slideUp'>
           En el mundo digital actual, contar con un sitio web eficiente y bien diseñado es fundamental para 
           el éxito de cualquier negocio. Ofrecemos una gama completa de servicios de desarrollo web para 
