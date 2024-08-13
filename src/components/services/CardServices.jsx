@@ -39,13 +39,15 @@ const CardServices = () => {
       <div className="card_services_container">
         <div><img src="/assets/netsuite.png" alt="image netsuite" /></div>
         <h2>Consultoría Técnica en Oracle NetSuite</h2>
-        <p>
-          Especialista en configuración y personalización de Oracle NetSuite, 
-          implementando y optimizando soluciones ERP para mejorar la eficiencia 
-          y productividad de tu empresa. Hábil en la integración de módulos y desarrollo 
-          de scripts personalizados, proporcionando soporte continuo y capacitación 
-          a los usuarios finales.
-        </p>
+        <div className='scroll'>
+          <p>
+            Especialista en configuración y personalización de Oracle NetSuite, 
+            implementando y optimizando soluciones ERP para mejorar la eficiencia 
+            y productividad de tu empresa. Hábil en la integración de módulos y desarrollo 
+            de scripts personalizados, proporcionando soporte continuo y capacitación 
+            a los usuarios finales.
+          </p>
+        </div>
       </div>
     </>
   )

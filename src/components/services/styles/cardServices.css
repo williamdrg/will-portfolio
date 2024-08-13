@@ -6,6 +6,12 @@
   border-radius: 15px;
 }
 
+.card_services_container .scroll {
+  height: 170px;
+  padding: 10px 0;
+  overflow: auto;
+}
+
 .card_services_container p {
   font-size: 13px;
 }
